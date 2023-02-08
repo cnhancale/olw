@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('companies', function (Blueprint $table) {
             $table->id();
+            $table->integer('çommission_rate');
+            $table->string('name');
             $table->timestamps();
         });
     }
